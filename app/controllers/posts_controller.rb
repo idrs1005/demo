@@ -10,8 +10,7 @@ class PostsController < ApplicationController
   # GET /posts/1
   # GET /posts/1.json
   def show
-    @posts = Post.all
-    #@var = params[:id]
+
   end
 
   # GET /posts/new

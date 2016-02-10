@@ -2,16 +2,12 @@
 
 <p>
   <strong>Title:</strong>
-    <% @posts.each do |post| %>
-      <%= post.title %>
-    <% end %>
+      <%= @post.title %>
 </p>
 
 <p>
   <strong>Content:</strong>
-  <% @posts.each do |post| %>
-      <%= post.content %>
-  <% end %>
+      <%= @post.content %>
 </p>
 
 <%= link_to 'Edit', edit_post_path(@post) %> |
