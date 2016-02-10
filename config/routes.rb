@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :posts
+  #resources :posts
   get 'welcome/index'
 
   get 'publicacion' => 'publicacion#index'
