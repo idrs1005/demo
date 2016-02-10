@@ -10,7 +10,7 @@ class PostsController < ApplicationController
   # GET /posts/1
   # GET /posts/1.json
   def show
-    @posts = Post.find(params[:id])
+    @post = Post.find(params[:id])
     format.html { redirect_to @post, notice: 'Post was successfully showed.' }
     format.json { render :show, status: :created, location: @post }
   end
