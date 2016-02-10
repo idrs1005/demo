@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  get 'posts/:title' => 'posts#show'
+  get 'posts' => 'posts#show'
 
   resources :posts
 
