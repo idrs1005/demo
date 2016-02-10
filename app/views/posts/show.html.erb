@@ -2,14 +2,14 @@
 
 <p>
   <strong>Title:</strong>
-    <% @post.each do |post| %>
+    <% @posts.each do |post| %>
       <%= post.title %>
     <% end %>
 </p>
 
 <p>
   <strong>Content:</strong>
-  <% @post.each do |post| %>
+  <% @posts.each do |post| %>
       <%= post.content %>
   <% end %>
 </p>
