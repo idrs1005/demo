@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ddc9e838-b0cd-464d-b670-f084b8e961be" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/publicacion/index.html.erb" afterPath="$PROJECT_DIR$/app/views/publicacion/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/publicacion/new.html.erb" afterPath="$PROJECT_DIR$/app/views/publicacion/new.html.erb" />
     </list>
     <ignored path="demo.iws" />
@@ -74,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/app/views/publicacion/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.029342722">
-              <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+              <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -433,7 +432,13 @@
       <option name="project" value="LOCAL" />
       <updated>1455125743705</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Rubymine - Change render variable to test what it does">
+      <created>1455126730417</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1455126730417</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -469,7 +474,8 @@
     <MESSAGE value="Update rubymine 2" />
     <MESSAGE value="Rubymine - Publicaciones" />
     <MESSAGE value="Rubymine - Publicaciones functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rubymine - Publicaciones functions" />
+    <MESSAGE value="Rubymine - Change render variable to test what it does" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rubymine - Change render variable to test what it does" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -527,7 +533,7 @@
     <entry file="file://$PROJECT_DIR$/app/views/publicacion/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.029342722">
-          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
           <folding />
         </state>
       </provider>
