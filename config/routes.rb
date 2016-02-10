@@ -1,9 +1,6 @@
 Rails.application.routes.draw do
 
-  get 'posts' => 'posts#index'
-  get 'posts/show' => 'posts#show'
-
-  #resources :posts
+  resources :posts
 
   get 'welcome/index'
 
