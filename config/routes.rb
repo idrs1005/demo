@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
-  resources :posts do
-    get 'posts' => 'posts#show'
-  end
+
+  get 'posts/:title' => 'posts#show'
+
+  resources :posts
+
   get 'welcome/index'
 
   get 'publicacion' => 'publicacion#index'
