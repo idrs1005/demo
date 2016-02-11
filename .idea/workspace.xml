@@ -29,10 +29,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="routes.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="routes.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47968397">
+            <state vertical-scroll-proportion="0.0">
               <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
               <folding />
             </state>
@@ -79,10 +79,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_login.html.erb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_login.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/account/_login.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
+            <state vertical-scroll-proportion="0.0">
               <caret line="0" column="41" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="41" />
               <folding />
             </state>
@@ -572,7 +572,13 @@
       <option name="project" value="LOCAL" />
       <updated>1455225625999</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Rubymine - Direccion post agregada y corregida">
+      <created>1455225744409</created>
+      <option name="number" value="00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1455225744409</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -611,7 +617,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Rubymine - Scaffold update" />
     <MESSAGE value="Rubymine - Scaffold without id in URL" />
     <MESSAGE value="Rubymine - Scaffold without id in URL 2" />
     <MESSAGE value="Rubymine - Scaffold without id in URL 3" />
@@ -636,7 +641,8 @@
     <MESSAGE value="Rubymine - Login paciente" />
     <MESSAGE value="Rubymine - Acc&quot;o&quot;unt nombre corregido" />
     <MESSAGE value="Rubymine - Direccion post agregada" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rubymine - Direccion post agregada" />
+    <MESSAGE value="Rubymine - Direccion post agregada y corregida" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rubymine - Direccion post agregada y corregida" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -977,18 +983,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/account/_login.html.erb">
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="41" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="41" />
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/account/_login.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47968397">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="41" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="41" />
           <folding />
         </state>
       </provider>
