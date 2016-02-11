@@ -12,7 +12,7 @@ class AccountController < ApplicationController
     end
   end
 
-  def paciente
+  def patient
     @user = Paciente.find(params[:format])
   end
 
