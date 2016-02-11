@@ -5,6 +5,7 @@ class CreatePacientes < ActiveRecord::Migration
       t.string :apellido1
       t.string :apellido2
       t.datetime :fecha_nacimiento
+      t.string :email
       t.string :usuario
       t.string :password
       t.string :identificacion

@@ -4,7 +4,8 @@ one:
   nombre: MyString
   apellido1: MyString
   apellido2: MyString
-  fecha_nacimiento: 2016-02-11 10:52:10
+  fecha_nacimiento: 2016-02-11 11:11:00
+  email: MyString
   usuario: MyString
   password: MyString
   identificacion: MyString
@@ -15,7 +16,8 @@ two:
   nombre: MyString
   apellido1: MyString
   apellido2: MyString
-  fecha_nacimiento: 2016-02-11 10:52:10
+  fecha_nacimiento: 2016-02-11 11:11:00
+  email: MyString
   usuario: MyString
   password: MyString
   identificacion: MyString
