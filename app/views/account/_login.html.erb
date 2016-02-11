@@ -1,0 +1,16 @@
+<%= form_for :account, url: account_path do |f| %>
+
+    <p>
+      <%= f.label :usuario %><br>
+      <%= f.text_field :usuario %>
+    </p>
+
+    <p>
+      <%= f.label :password %><br>
+      <%= f.text_field :password %>
+    </p>
+
+    <p>
+      <%= f.submit "Log in" %>
+    </p>
+<% end %>
