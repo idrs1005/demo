@@ -11,7 +11,28 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160210163009) do
+ActiveRecord::Schema.define(version: 20160211165210) do
+
+  create_table "pacientes", force: :cascade do |t|
+    t.string   "nombre",           limit: 255
+    t.string   "apellido1",        limit: 255
+    t.string   "apellido2",        limit: 255
+    t.datetime "fecha_nacimiento"
+    t.string   "usuario",          limit: 255
+    t.string   "password",         limit: 255
+    t.string   "identificacion",   limit: 255
+    t.string   "sexo",             limit: 255
+    t.string   "ocupacion",        limit: 255
+    t.datetime "created_at",                   null: false
+    t.datetime "updated_at",                   null: false
+  end
+
+  create_table "posts", force: :cascade do |t|
+    t.string   "title",      limit: 255
+    t.text     "content",    limit: 65535
+    t.datetime "created_at",               null: false
+    t.datetime "updated_at",               null: false
+  end
 
   create_table "publicacions", force: :cascade do |t|
     t.string   "titulo",     limit: 255

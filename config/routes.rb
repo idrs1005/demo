@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'register/index'
+
   resources :posts
 
   get 'welcome/index'
