@@ -13,7 +13,7 @@ Rails.application.routes.draw do
   get 'register' => 'register#index'
   post 'register/create' => 'register#create'
 
-  get 'account' => 'accunt#index'
+  get 'account' => 'account#index'
   get 'account/patient' => 'account#patient'
 
   # The priority is based upon order of creation: first created -> highest priority.
