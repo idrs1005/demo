@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ddc9e838-b0cd-464d-b670-f084b8e961be" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/account/_login.html.erb" afterPath="$PROJECT_DIR$/app/views/account/_login.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/account_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/account_controller.rb" />
     </list>
     <ignored path="demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="account_controller.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="account_controller.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/account_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.33860046">
+              <caret line="12" column="82" selection-start-line="12" selection-start-column="82" selection-end-line="12" selection-end-column="82" />
               <folding />
             </state>
           </provider>
@@ -69,10 +69,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_login.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_login.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/account/_login.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26408452">
+            <state vertical-scroll-proportion="-6.617647">
               <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
               <folding />
             </state>
@@ -143,8 +143,8 @@
         <option value="$PROJECT_DIR$/app/controllers/posts_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/account/patient.html.erb" />
         <option value="$PROJECT_DIR$/app/views/account/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/account_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/account/_login.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/account_controller.rb" />
       </list>
     </option>
   </component>
@@ -486,12 +486,6 @@
       <option name="number" value="Default" />
       <updated>1455122167627</updated>
     </task>
-    <task id="LOCAL-00001" summary="Actualizacion de rubymine">
-      <created>1455122373286</created>
-      <option name="number" value="00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1455122373286</updated>
-    </task>
     <task id="LOCAL-00002" summary="Update rubymine">
       <created>1455123581285</created>
       <option name="number" value="00002" />
@@ -780,7 +774,13 @@
       <option name="project" value="LOCAL" />
       <updated>1455229614947</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Rubymine - Corrigiendo los tipos de input">
+      <created>1455230167482</created>
+      <option name="number" value="00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1455230167484</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -819,7 +819,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Rubymine - Scaffold default" />
     <MESSAGE value="Rubymine - Update rubymine" />
     <MESSAGE value="Rubymine - Registrar un usuario" />
     <MESSAGE value="Rubymine - Registrar un usuario y rutas" />
@@ -844,7 +843,8 @@
     <MESSAGE value="Rubymine - Enviar objeto en el parammetro" />
     <MESSAGE value="Rubymine - Obteniendo mejor el parametro" />
     <MESSAGE value="Rubymine - Corrigiendo el nombre de la vista" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rubymine - Corrigiendo el nombre de la vista" />
+    <MESSAGE value="Rubymine - Corrigiendo los tipos de input" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rubymine - Corrigiendo los tipos de input" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1181,26 +1181,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/account/patient.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.147059">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="10" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/account_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1231,8 +1215,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/account/_login.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26408452">
+        <state vertical-scroll-proportion="-6.617647">
           <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/account/patient.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.147059">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/account_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33860046">
+          <caret line="12" column="82" selection-start-line="12" selection-start-column="82" selection-end-line="12" selection-end-column="82" />
           <folding />
         </state>
       </provider>
