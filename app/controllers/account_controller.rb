@@ -4,8 +4,7 @@ class AccountController < ApplicationController
   end
 
   def login
-    user = Paciente.find_by(params[:usuarios], params[:password])
-    if user
+    if user = Paciente.find_by(usuario: params[:usuario], password: params[:password])
       redirect_to account_patient_path(user)
     else
       render 'index'
