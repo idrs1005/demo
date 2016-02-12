@@ -1,6 +1,7 @@
 class AccountController < ApplicationController
 
   def index
+    @session = Session.new
   end
 
   def edit
