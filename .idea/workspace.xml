@@ -42,8 +42,8 @@
       <file leaf-file-name="_patient.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/account/_patient.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.32276994">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -496,12 +496,6 @@
       <option name="number" value="Default" />
       <updated>1455122167627</updated>
     </task>
-    <task id="LOCAL-00030" summary="Rubymine - Update account controller">
-      <created>1455218128931</created>
-      <option name="number" value="00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1455218128931</updated>
-    </task>
     <task id="LOCAL-00031" summary="Rubymine - Login paciente">
       <created>1455225306386</created>
       <option name="number" value="00031" />
@@ -790,7 +784,13 @@
       <option name="project" value="LOCAL" />
       <updated>1455300190827</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="Rubymine - Editar perfil 16">
+      <created>1455300892288</created>
+      <option name="number" value="00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1455300892288</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -829,7 +829,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Rubymine - Link sin id 2" />
     <MESSAGE value="Rubymine - Link sin id 3" />
     <MESSAGE value="Rubymine - Link sin id 4" />
     <MESSAGE value="Rubymine - Link sin id 5" />
@@ -854,7 +853,8 @@
     <MESSAGE value="Rubymine - Editar perfil 13" />
     <MESSAGE value="Rubymine - Editar perfil 14" />
     <MESSAGE value="Rubymine - Editar perfil 15" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rubymine - Editar perfil 15" />
+    <MESSAGE value="Rubymine - Editar perfil 16" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rubymine - Editar perfil 16" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1243,8 +1243,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/account/_patient.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.32276994">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
