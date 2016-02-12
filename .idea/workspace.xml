@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ddc9e838-b0cd-464d-b670-f084b8e961be" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/account/_patient.html.erb" afterPath="$PROJECT_DIR$/app/views/account/_patient.html.erb" />
     </list>
     <ignored path="demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,8 +42,8 @@
       <file leaf-file-name="_patient.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/account/_patient.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29342723">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.058685444">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -495,12 +496,6 @@
       <option name="number" value="Default" />
       <updated>1455122167627</updated>
     </task>
-    <task id="LOCAL-00034" summary="Rubymine - Direccion post agregada y corregida">
-      <created>1455225744409</created>
-      <option name="number" value="00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1455225744409</updated>
-    </task>
     <task id="LOCAL-00035" summary="Rubymine - Direccion post agregada y corregida 2">
       <created>1455225813528</created>
       <option name="number" value="00035" />
@@ -789,7 +784,13 @@
       <option name="project" value="LOCAL" />
       <updated>1455301633107</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="Rubymine - Editar perfil">
+      <created>1455301647864</created>
+      <option name="number" value="00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1455301647864</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1242,8 +1243,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/account/_patient.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29342723">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.058685444">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
           <folding />
         </state>
       </provider>
