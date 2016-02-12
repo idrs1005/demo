@@ -62,8 +62,8 @@
       <file leaf-file-name="routes.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5643341">
-              <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.45146728">
+              <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -488,12 +488,6 @@
       <option name="number" value="Default" />
       <updated>1455122167627</updated>
     </task>
-    <task id="LOCAL-00004" summary="Rubymine - Publicaciones">
-      <created>1455125640585</created>
-      <option name="number" value="00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1455125640585</updated>
-    </task>
     <task id="LOCAL-00005" summary="Rubymine - Publicaciones functions">
       <created>1455125743705</created>
       <option name="number" value="00005" />
@@ -782,7 +776,13 @@
       <option name="project" value="LOCAL" />
       <updated>1455287709132</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Rubymine - Link sin id 2">
+      <created>1455287846145</created>
+      <option name="number" value="00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1455287846145</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -821,7 +821,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Rubymine - Registrar un usuario y rutas" />
     <MESSAGE value="Rubymine - Registrar un paciente" />
     <MESSAGE value="Rubymine - Update account controller" />
     <MESSAGE value="Rubymine - Login paciente" />
@@ -846,7 +845,8 @@
     <MESSAGE value="Rubymine - Corrigiendo los tipos de input" />
     <MESSAGE value="Rubymine - Parametros como post" />
     <MESSAGE value="Rubymine - Link sin id" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rubymine - Link sin id" />
+    <MESSAGE value="Rubymine - Link sin id 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rubymine - Link sin id 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1226,8 +1226,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5643341">
-          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.45146728">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
           <folding />
         </state>
       </provider>
