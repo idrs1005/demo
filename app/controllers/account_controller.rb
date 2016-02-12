@@ -18,6 +18,7 @@ class AccountController < ApplicationController
     @patient = Paciente.find_by(usuario: params[:account][:usuario], password: params[:account][:password])
     if @patient != nil
       @user = @patient
+      render 'index'
     else
       render 'index' , notice: 'Invalid email/password combination'
     end
