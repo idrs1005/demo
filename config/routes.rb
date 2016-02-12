@@ -15,7 +15,7 @@ Rails.application.routes.draw do
 
   get 'account' => 'account#index'
   #get 'account/patient', to: 'account#patient'
-  get 'account/patient', to: :patient
+  get 'account/patient', to: :patient, controller: 'account'
   post 'account/login' => 'account#login'
 
   #resource :account
