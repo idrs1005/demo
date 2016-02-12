@@ -18,7 +18,7 @@ Rails.application.routes.draw do
   get 'account', to: :patient
   post 'account/login' => 'account#login'
 
-  resource :account
+  #resource :account
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
