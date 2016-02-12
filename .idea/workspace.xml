@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ddc9e838-b0cd-464d-b670-f084b8e961be" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/account/_patient.html.erb" afterPath="$PROJECT_DIR$/app/views/account/_patient.html.erb" />
     </list>
     <ignored path="demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,20 +39,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_patient.html.erb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_patient.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/account/_patient.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.088235">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.29342723">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="routes.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47968397">
+            <state vertical-scroll-proportion="0.0">
               <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
               <folding />
             </state>
@@ -125,8 +125,8 @@
         <option value="$PROJECT_DIR$/app/views/account/patient.html.erb" />
         <option value="$PROJECT_DIR$/app/views/account/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/account_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/account/_patient.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/account/_patient.html.erb" />
       </list>
     </option>
   </component>
@@ -496,12 +496,6 @@
       <option name="number" value="Default" />
       <updated>1455122167627</updated>
     </task>
-    <task id="LOCAL-00032" summary="Rubymine - Acc&quot;o&quot;unt nombre corregido">
-      <created>1455225429874</created>
-      <option name="number" value="00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1455225429874</updated>
-    </task>
     <task id="LOCAL-00033" summary="Rubymine - Direccion post agregada">
       <created>1455225625999</created>
       <option name="number" value="00033" />
@@ -790,7 +784,13 @@
       <option name="project" value="LOCAL" />
       <updated>1455301061166</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="Rubymine - Editar perfil">
+      <created>1455301179796</created>
+      <option name="number" value="00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1455301179796</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -837,7 +837,6 @@
     <MESSAGE value="Rubymine - Link sin id 9" />
     <MESSAGE value="Rubymine - Link sin id 10" />
     <MESSAGE value="Rubymine - Link sin id funciona + arreglos" />
-    <MESSAGE value="Rubymine - Editar perfil" />
     <MESSAGE value="Rubymine - Editar perfil 2" />
     <MESSAGE value="Rubymine - Editar perfil 3" />
     <MESSAGE value="Rubymine - Editar perfil 4" />
@@ -854,7 +853,8 @@
     <MESSAGE value="Rubymine - Editar perfil 15" />
     <MESSAGE value="Rubymine - Editar perfil 16" />
     <MESSAGE value="Rubymine - Editar perfil 17" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rubymine - Editar perfil 17" />
+    <MESSAGE value="Rubymine - Editar perfil" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rubymine - Editar perfil" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1201,14 +1201,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/account/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.4705882">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/posts/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23474178">
@@ -1233,18 +1225,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/account/_patient.html.erb">
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.088235">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/account/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47968397">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        <state vertical-scroll-proportion="-1.4705882">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/account/_patient.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29342723">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
           <folding />
         </state>
       </provider>

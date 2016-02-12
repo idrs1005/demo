@@ -1,6 +1,6 @@
 <%= form_for 'account', url: account_edit_path do |f| %>
     <p>
-      <%= f.label :user.id %>
+      <%= f.label @user %>
       <%= f.submit 'Edit info' %>
     </p>
 <% end %>
