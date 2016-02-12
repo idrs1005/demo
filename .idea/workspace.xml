@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ddc9e838-b0cd-464d-b670-f084b8e961be" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/account/_patient.html.erb" afterPath="$PROJECT_DIR$/app/views/account/_patient.html.erb" />
     </list>
     <ignored path="demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -496,12 +495,6 @@
       <option name="number" value="Default" />
       <updated>1455122167627</updated>
     </task>
-    <task id="LOCAL-00033" summary="Rubymine - Direccion post agregada">
-      <created>1455225625999</created>
-      <option name="number" value="00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1455225625999</updated>
-    </task>
     <task id="LOCAL-00034" summary="Rubymine - Direccion post agregada y corregida">
       <created>1455225744409</created>
       <option name="number" value="00034" />
@@ -790,7 +783,13 @@
       <option name="project" value="LOCAL" />
       <updated>1455301179796</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="Rubymine - Editar perfil">
+      <created>1455301633107</created>
+      <option name="number" value="00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1455301633107</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="ToolWindowManager">
