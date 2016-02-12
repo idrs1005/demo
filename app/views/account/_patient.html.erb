@@ -1,4 +1,4 @@
-<%= link_to "Edit information", account_edit_path(@user.id, param1: 'value1', param2: 'value2'), :method => :post %>
+<%= link_to "Edit information", account_edit_path(@user), :method => :post, remote: true %>
 
 <p>
   <strong>Nombre:</strong>
