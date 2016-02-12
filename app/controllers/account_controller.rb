@@ -4,7 +4,7 @@ class AccountController < ApplicationController
   end
 
   def edit
-    @patient = Paciente.find(params[:paciente][:id])
+    @patient = Paciente.find(my_params)
   end
 
   def patient
@@ -15,5 +15,10 @@ class AccountController < ApplicationController
       render 'index' , notice: 'Invalid email/password combination'
     end
   end
+
+  private
+    def my_params
+      params.require(:paciente)
+    end
 
 end
