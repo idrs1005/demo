@@ -1,3 +1,4 @@
+<%= link_to 'Edit profile', account_edit_path(@user) %>
 <p>
   <strong>Nombre:</strong>
   <%= @user.nombre %>
@@ -6,4 +7,39 @@
 <p>
   <strong>Apellidos:</strong>
   <%= @user.apellido1 %> <%= @user.apellido2 %>
+</p>
+
+<p>
+  <strong>Fecha de nacimiento:</strong>
+  <%= @user.fecha_nacimiento %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @user.email %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @user.email %>
+</p>
+
+<p>
+  <strong>Usuario:</strong>
+  <%= @user.usuario %>
+</p>
+
+<p>
+  <strong>Identificaci&oacute;n:</strong>
+  <%= @user.identificacion %>
+</p>
+
+<p>
+  <strong>Sexo:</strong>
+  <%= @user.sexo %>
+</p>
+
+<p>
+  <strong>Ocupaci&oacute;n:</strong>
+  <%= @user.ocupacion %>
 </p>
