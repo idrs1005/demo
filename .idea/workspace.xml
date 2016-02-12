@@ -42,8 +42,8 @@
       <file leaf-file-name="_patient.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/account/_patient.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.11737089">
-              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="39" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -506,12 +506,6 @@
       <option name="number" value="Default" />
       <updated>1455122167627</updated>
     </task>
-    <task id="LOCAL-00038" summary="Rubymine - Pasando parametro objeto 2">
-      <created>1455226374238</created>
-      <option name="number" value="00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1455226374238</updated>
-    </task>
     <task id="LOCAL-00039" summary="Rubymine - Pasando parametro objeto 3">
       <created>1455226658053</created>
       <option name="number" value="00039" />
@@ -800,7 +794,13 @@
       <option name="project" value="LOCAL" />
       <updated>1455302959137</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="Rubymine - Editar perfil">
+      <created>1455303199600</created>
+      <option name="number" value="00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1455303199600</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1253,8 +1253,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/account/_patient.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11737089">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="39" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
           <folding />
         </state>
       </provider>
