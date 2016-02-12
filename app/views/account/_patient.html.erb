@@ -1,6 +1,6 @@
-<%= form_for @user, url: account_edit_path do |f| %>
+<%= form_for :account, url: account_edit_path do |f| %>
     <p>
-      <%= f.hidden_field :id %>
+      <%= f.hidden_field :<%= @user.id %> %>
       <%= f.submit "Edit info" %>
     </p>
 <% end %>
