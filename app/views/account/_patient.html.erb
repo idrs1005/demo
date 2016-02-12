@@ -1,4 +1,11 @@
-<%= link_to 'Edit profile', account_patient_edit_path(@user) %>
+<%= form_for :account, url: account_patient_edit_path do |f| %>
+
+    <%= f.id :@user.id %>
+
+    <p>
+      <%= f.submit "Edit info" %>
+    </p>
+<% end %>
 
 <p>
   <strong>Nombre:</strong>
@@ -13,11 +20,6 @@
 <p>
   <strong>Fecha de nacimiento:</strong>
   <%= @user.fecha_nacimiento %>
-</p>
-
-<p>
-  <strong>Email:</strong>
-  <%= @user.email %>
 </p>
 
 <p>
