@@ -4,6 +4,7 @@ class AccountController < ApplicationController
   end
 
   def edit
+    @patient = Paciente.find(params[:account][:id])
   end
 
   def patient
