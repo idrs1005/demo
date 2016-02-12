@@ -4,7 +4,7 @@ class AccountController < ApplicationController
   end
 
   def edit
-    @patient = params[:user]
+    #@patient = params[:user]
   end
 
   def patient
