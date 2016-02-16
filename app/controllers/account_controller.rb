@@ -9,11 +9,11 @@ class AccountController < ApplicationController
   end
 
   def patient
-    @session = Session.new(params[:authenticity_token].permit(:authenticity_token, :@patient.id))
-    @session.save
     @patient = Paciente.find_by(usuario: params[:account][:usuario], password: params[:account][:password])
     if @patient != nil
       @user = @patient
+      @session = Session.new(params[:authenticity_token].permit(:authenticity_token, :@patient.id))
+      @session.save
     else
       render 'index' , notice: 'Invalid email/password combination'
     end
