@@ -17,7 +17,8 @@ class AccountController < ApplicationController
       @user = @patient
 
     else
-      render 'index' , notice: 'Invalid email/password combination'
+      flash[:notice] = "message"
+      render 'index'
     end
   end
 
