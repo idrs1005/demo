@@ -5,7 +5,7 @@ class AccountController < ApplicationController
   end
 
   def edit
-    @patient = params[:user]
+    @patient = Paciente.find(params[:user])
   end
 
   def patient
@@ -16,7 +16,7 @@ class AccountController < ApplicationController
       @session.save
       render 'patient'
     else
-      flash[:notice] = "Invalid user/email combination"
+      flash[:error] = "Invalid user/email combination"
       render 'index'
     end
   end
