@@ -43,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/app/controllers/account_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.39503387">
-              <caret line="14" column="83" selection-start-line="14" selection-start-column="83" selection-end-line="14" selection-end-column="83" />
+              <caret line="14" column="64" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -507,12 +507,6 @@
       <option name="number" value="Default" />
       <updated>1455122167627</updated>
     </task>
-    <task id="LOCAL-00065" summary="Rubymine - Editar perfil 3">
-      <created>1455295006817</created>
-      <option name="number" value="00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1455295006817</updated>
-    </task>
     <task id="LOCAL-00066" summary="Rubymine - Editar perfil 4">
       <created>1455295629045</created>
       <option name="number" value="00066" />
@@ -801,7 +795,13 @@
       <option name="project" value="LOCAL" />
       <updated>1455635073161</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="Rubymine - Log in">
+      <created>1455635644865</created>
+      <option name="number" value="00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1455635644865</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1246,7 +1246,7 @@
     <entry file="file://$PROJECT_DIR$/app/controllers/account_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.39503387">
-          <caret line="14" column="83" selection-start-line="14" selection-start-column="83" selection-end-line="14" selection-end-column="83" />
+          <caret line="14" column="64" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
           <folding />
         </state>
       </provider>
