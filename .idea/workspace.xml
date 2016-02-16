@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ddc9e838-b0cd-464d-b670-f084b8e961be" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/account_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/account_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20160212223740_create_sessions.rb" afterPath="$PROJECT_DIR$/db/migrate/20160212223740_create_sessions.rb" />
     </list>
     <ignored path="demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -518,12 +516,6 @@
       <option name="number" value="Default" />
       <updated>1455122167627</updated>
     </task>
-    <task id="LOCAL-00061" summary="Rubymine - Link sin id 10">
-      <created>1455291494531</created>
-      <option name="number" value="00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1455291494531</updated>
-    </task>
     <task id="LOCAL-00062" summary="Rubymine - Link sin id funciona + arreglos">
       <created>1455291814541</created>
       <option name="number" value="00062" />
@@ -812,7 +804,13 @@
       <option name="project" value="LOCAL" />
       <updated>1455634195643</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <task id="LOCAL-00110" summary="Rubymine - Log in">
+      <created>1455634459084</created>
+      <option name="number" value="00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1455634459084</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="ToolWindowManager">
