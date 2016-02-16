@@ -12,8 +12,8 @@ class AccountController < ApplicationController
     @patient = Paciente.find_by(usuario: params[:account][:usuario], password: params[:account][:password])
     if @patient != nil
       @user = @patient
-      @session = Session.new(params.permit(:authenticity_token), params[:account].permit[:usuario])
-      @session.save
+      #@session = Session.new(params.permit(:authenticity_token), params[:account].permit[:usuario])
+      #@session.save
       render 'patient'
     else
       flash[:notice] = "Invalid user/email combination"
