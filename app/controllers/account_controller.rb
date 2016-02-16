@@ -12,7 +12,7 @@ class AccountController < ApplicationController
     @patient = Paciente.find_by(usuario: params[:account][:usuario], password: params[:account][:password])
     if @patient != nil
       @user = @patient
-      @session = Session.new(params.permit(:authenticity_token, @patient.usuario))
+      @session = Session.new(params.permit(:authenticity_token), params[:account].permit(:usurio))
       @session.save
       render 'patient'
     else
