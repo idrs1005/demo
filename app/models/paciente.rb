@@ -2,7 +2,7 @@ class Paciente < ActiveRecord::Base
 
   validates :email , presence: true #, confirmation: true
   validates :password , presence: true , confirmation: true
-  validates :password_confirmation, presence: { message: " es requerido"}
+  #validates :password_confirmation, presence: { message: " es requerido"}
   #validates :email_confirmation, presence: { message: " es requerido"}
 
   # Validamos en una expresion regular nuestro email
