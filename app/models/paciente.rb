@@ -10,7 +10,7 @@ class Paciente < ActiveRecord::Base
   validates :email, format: { :with => VALID_EMAIL_REGEX , message: "El formato del correo es invalido" }
 
   # Validamos que el identificador tenga entre 8 a 12 caracteres
-  validates :identificacion, length: { in: 9 , message: "debe tener 9 caracteres (102340567)"}
+  validates :identificacion, length: { is: 9 , message: "debe tener 9 caracteres (102340567)"}
 
   # Validamos que el identificador solo sea numerico
   validates :identificacion, numericality: { only_integer: true }
