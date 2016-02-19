@@ -43,9 +43,9 @@ Rails.application.configure do
   config.action_mailer.smtp_settings = {
       address:              'smtp.gmail.com',
       port:                 587,
-      domain:               'flecharoja.com',
-      user_name:            'isaac@flecharoja.com',
-      password:             'idrs135792468',
+      domain:               'pandatechla.com',
+      user_name:            'soporte@pandatechla.com',
+      password:             'pandaT88',
       authentication:       'plain',
       enable_starttls_auto: true  }
 

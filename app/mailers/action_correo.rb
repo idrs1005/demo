@@ -1,5 +1,5 @@
 class ActionCorreo < ApplicationMailer
-  default from: 'soporte@pandametics.com'
+  default from: 'soporte@pandatechla.com'
 
   def bienvenido_email(user)
     @user = user
