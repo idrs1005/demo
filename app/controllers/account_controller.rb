@@ -5,7 +5,7 @@ class AccountController < ApplicationController
   end
 
   def edit
-    @patient = Paciente.find(params[:user])
+    @patient = Paciente.find(session[:current_user_id])
   end
 
   def patient
