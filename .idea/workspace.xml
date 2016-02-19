@@ -40,21 +40,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="account_controller.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="account_controller.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/account_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.39503387">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application_controller.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="application_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25395033">
-              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="29" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -153,8 +153,8 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/mailers/action_correo.rb" />
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/account_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/account_controller.rb" />
       </list>
     </option>
   </component>
@@ -566,12 +566,6 @@
       <option name="number" value="Default" />
       <updated>1455122167627</updated>
     </task>
-    <task id="LOCAL-00093" summary="Rubymine - Editar perfil">
-      <created>1455311991166</created>
-      <option name="number" value="00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1455311991166</updated>
-    </task>
     <task id="LOCAL-00094" summary="Rubymine - Editar perfil">
       <created>1455312180969</created>
       <option name="number" value="00094" />
@@ -860,7 +854,13 @@
       <option name="project" value="LOCAL" />
       <updated>1455909267726</updated>
     </task>
-    <option name="localTasksCounter" value="142" />
+    <task id="LOCAL-00142" summary="Rubymine - Login con sesion">
+      <created>1455920670402</created>
+      <option name="number" value="00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1455920670402</updated>
+    </task>
+    <option name="localTasksCounter" value="143" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -899,7 +899,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Rubymine - Link sin id 9" />
     <MESSAGE value="Rubymine - Link sin id 10" />
     <MESSAGE value="Rubymine - Link sin id funciona + arreglos" />
     <MESSAGE value="Rubymine - Editar perfil 2" />
@@ -924,7 +923,8 @@
     <MESSAGE value="Rubymine - Log in" />
     <MESSAGE value="Rubymine - Registro con validaciones" />
     <MESSAGE value="Rubymine - Enviando emails" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rubymine - Enviando emails" />
+    <MESSAGE value="Rubymine - Login con sesion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rubymine - Login con sesion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1289,18 +1289,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/account_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <caret line="0" column="29" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/account_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25395033">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.39503387">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding />
         </state>
       </provider>
