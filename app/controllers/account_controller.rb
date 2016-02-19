@@ -8,6 +8,10 @@ class AccountController < ApplicationController
     @patient = Paciente.find(session[:current_user_id])
   end
 
+  def update
+    @post.update(usuario: params[:account][:usuario])
+  end
+
   def patient
     @patient = Paciente.find_by(usuario: params[:account][:usuario], password: params[:account][:password])
     if @patient != nil

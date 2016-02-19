@@ -1,4 +1,21 @@
+<%= form_for :account, url: account_edit_path do |f| %>
+
     <p>
       <strong>Nombre:</strong>
-      <%= @patient.nombre %>
+      <%= @user.nombre %>
     </p>
+
+    <p>
+      <strong>Apellidos:</strong>
+      <%= @user.apellido1 %> <%= @user.apellido2 %>
+    </p>
+
+    <p>
+      <strong>Nombre de usuario:</strong><br>
+      <%= f.text_field :usuario %>
+    </p>
+
+    <p>
+      <%= f.submit "Editar" %>
+    </p>
+<% end %>
