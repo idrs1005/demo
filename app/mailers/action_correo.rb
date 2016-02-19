@@ -3,7 +3,7 @@ class ActionCorreo < ApplicationMailer
 
   def bienvenido_email(user)
     @user = user
-    mail(to: @user.email, subject: 'Enviando correos con ruby')
+    mail(to: @user.email, subject: 'Registro satisfactorio')
   end
 
 end
