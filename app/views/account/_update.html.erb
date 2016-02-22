@@ -23,30 +23,30 @@
     </p>
 
     <p>
-      <strong>Nombre de usuario:</strong><br>
+      <strong>Correo de registro:</strong><br>
       <%= @patient.email %>
     </p>
 
     <p>
-      <strong>Correo de usuario:</strong><br>
+      <strong>Nombre de usuario:</strong><br>
       <%= @patient.usuario %>
     </p>
 
     <p>
-      <strong>Identificación de usuario:</strong><br>
+      <strong>Número de Identificación:</strong><br>
       <%= f.text_field :identificacion, :value => @patient.identificacion %>
     </p>
 
     <p>
       <strong>Sexo:</strong><br>
-      <%= f.label :autolyse, "sexom", :value => "Masculino"  %>
+      <%= f.label :autolyse, "Masculino" %>
       <%= f.radio_button :autolyse, true, :checked => true%>
-      <%= f.label :autolyse, "sexof", :value => "Femenino" %>
+      <%= f.label :autolyse, "Femenino" %>
       <%= f.radio_button :autolyse, false %>
     </p>
 
     <p>
-      <strong>Ocupación de usuario:</strong><br>
+      <strong>Ocupación:</strong><br>
       <%= f.text_field :ocupacion, :value => @patient.ocupacion %>
     </p>
 
