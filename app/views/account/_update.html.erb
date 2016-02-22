@@ -39,8 +39,8 @@
     </p>
 
     <p>
-      <strong>Número de Identificación:</strong><br>
-      <%= f.text_field :identificacion, :value => @patient.identificacion %>
+      <strong>Fecha de nacimiento:</strong><br>
+      <%= f.date_select(:fecha_nacimiento,:start_year => 1940) %>
     </p>
 
     <p>
