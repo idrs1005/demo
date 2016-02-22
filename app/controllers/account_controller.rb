@@ -12,6 +12,8 @@ class AccountController < ApplicationController
     @patient = Paciente.find(session[:current_user_id])
     if @patient.update(usuario: params[:account][:usuario])
       render 'patient'
+    else
+      render 'update'
     end
   end
 
