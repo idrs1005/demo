@@ -74,7 +74,7 @@
         <entry file="file://$PROJECT_DIR$/app/views/account/_update.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.7359155">
-              <caret line="42" column="60" selection-start-line="42" selection-start-column="60" selection-end-line="42" selection-end-column="60" />
+              <caret line="42" column="63" selection-start-line="42" selection-start-column="63" selection-end-line="42" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -604,12 +604,6 @@
       <option name="number" value="Default" />
       <updated>1455122167627</updated>
     </task>
-    <task id="LOCAL-00116" summary="Rubymine - Log in">
-      <created>1455636239370</created>
-      <option name="number" value="00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1455636239370</updated>
-    </task>
     <task id="LOCAL-00117" summary="Rubymine - Log in">
       <created>1455636353360</created>
       <option name="number" value="00117" />
@@ -898,7 +892,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456159969799</updated>
     </task>
-    <option name="localTasksCounter" value="165" />
+    <task id="LOCAL-00165" summary="Rubymine - Editando atributos de la BD">
+      <created>1456161797111</created>
+      <option name="number" value="00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1456161797111</updated>
+    </task>
+    <option name="localTasksCounter" value="166" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1338,7 +1338,7 @@
     <entry file="file://$PROJECT_DIR$/app/views/account/_update.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7359155">
-          <caret line="42" column="60" selection-start-line="42" selection-start-column="60" selection-end-line="42" selection-end-column="60" />
+          <caret line="42" column="63" selection-start-line="42" selection-start-column="63" selection-end-line="42" selection-end-column="63" />
           <folding />
         </state>
       </provider>
