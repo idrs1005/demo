@@ -24,7 +24,28 @@
 
     <p>
       <strong>Nombre de usuario:</strong><br>
-      <%= f.text_field :usuario, :value => @patient.usuario %>
+      <%= @patient.email %>
+    </p>
+
+    <p>
+      <strong>Correo de usuario:</strong><br>
+      <%= @patient.usuario %>
+    </p>
+
+    <p>
+      <strong>Identificación de usuario:</strong><br>
+      <%= f.text_field :identificacion, :value => @patient.identificacion %>
+    </p>
+
+    <p>
+      <strong>Sexo:</strong><br>
+      <%= f.radio_button :autolyse, false, :checked => true, value => 'Masculino' %>
+      <%= f.radio_button :autolyse, false, :checked => false, value => 'Femenino' %>
+    </p>
+
+    <p>
+      <strong>Ocupación de usuario:</strong><br>
+      <%= f.text_field :ocupacion, :value => @patient.ocupacion %>
     </p>
 
     <p>
