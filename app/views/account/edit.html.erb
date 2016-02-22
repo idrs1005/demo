@@ -1,11 +1,11 @@
 <%= form_for :account, url: account_update_path do |f| %>
 
-    <% if @paciente.errors.any? %>
+    <% if @patient.errors.any? %>
         <div id="error_explanation">
-          <h2><%= pluralize(@paciente.errors.count, "error") %> antes de guardar:</h2>
+          <h2><%= pluralize(@patient.errors.count, "error") %> antes de guardar:</h2>
 
           <ul>
-            <% @paciente.errors.full_messages.each do |msg| %>
+            <% @patient.errors.full_messages.each do |msg| %>
                 <li><%= msg %></li>
             <% end %>
           </ul>
