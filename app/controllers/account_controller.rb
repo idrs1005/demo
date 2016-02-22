@@ -13,7 +13,7 @@ class AccountController < ApplicationController
     if @patient.update(usuario: params[:account][:usuario])
       render 'patient'
     else
-      render 'update'
+      render 'edit'
     end
   end
 
