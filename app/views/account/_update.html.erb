@@ -14,22 +14,28 @@
 
     <p>
       <strong>Nombre:</strong>
-      <%= @patient.nombre %>
+      <%= f.text_field :Nombre, :value => @patient.nombre %>
     </p>
 
     <p>
       <strong>Apellidos:</strong>
-      <%= @patient.apellido1 %> <%= @patient.apellido2 %>
+      <%= f.text_field :apellido1, :value => @patient.apellido1 %>
+      <%= f.text_field :apellido2, :value => @patient.apellido2 %>
     </p>
 
     <p>
       <strong>Correo de registro:</strong><br>
-      <%= @patient.email %>
+      <%= f.text_field :email, :value => @patient.email %>
     </p>
 
     <p>
       <strong>Nombre de usuario:</strong><br>
-      <%= @patient.usuario %>
+      <%= f.text_field :usuario, :value => @patient.usuario %>
+    </p>
+
+    <p>
+      <strong>Número de Identificación:</strong><br>
+      <%= f.text_field :identificacion, :value => @patient.identificacion %>
     </p>
 
     <p>
@@ -39,10 +45,10 @@
 
     <p>
       <strong>Sexo:</strong><br>
-      <%= f.label :autolyse, "Masculino" %>
       <%= f.radio_button :autolyse, true, :checked => true%>
-      <%= f.label :autolyse, "Femenino" %>
+      <%= f.label :autolyse, "Masculino" %>
       <%= f.radio_button :autolyse, false %>
+      <%= f.label :autolyse, "Femenino" %>
     </p>
 
     <p>
