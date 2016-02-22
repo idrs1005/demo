@@ -9,7 +9,7 @@ class AccountController < ApplicationController
   end
 
   def update
-    @post.update(usuario: params[:account][:usuario])
+    @patient.update(usuario: params[:account][:usuario])
   end
 
   def patient
