@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ddc9e838-b0cd-464d-b670-f084b8e961be" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/register/_registro.html.erb" afterPath="$PROJECT_DIR$/app/views/register/_registro.html.erb" />
     </list>
     <ignored path="demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -483,12 +482,6 @@
       <option name="number" value="Default" />
       <updated>1455122167627</updated>
     </task>
-    <task id="LOCAL-00156" summary="Rubymine - Editando parametros">
-      <created>1456158089153</created>
-      <option name="number" value="00156" />
-      <option name="project" value="LOCAL" />
-      <updated>1456158089153</updated>
-    </task>
     <task id="LOCAL-00157" summary="Rubymine - Editando parametros">
       <created>1456158278335</created>
       <option name="number" value="00157" />
@@ -777,7 +770,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456781117398</updated>
     </task>
-    <option name="localTasksCounter" value="205" />
+    <task id="LOCAL-00205" summary="Rubymine - Probando css">
+      <created>1456781406998</created>
+      <option name="number" value="00205" />
+      <option name="project" value="LOCAL" />
+      <updated>1456781406998</updated>
+    </task>
+    <option name="localTasksCounter" value="206" />
     <servers />
   </component>
   <component name="ToolWindowManager">
