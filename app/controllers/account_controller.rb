@@ -16,7 +16,7 @@ class AccountController < ApplicationController
         sex = 'Masculino'
     end
     if @patient.update(nombre: nombre, apellido1: nombre, apellido2: apellido2, fecha_nacimiento: fecha_nacimiento, identificacion: identificacion, ocupacion: ocupacion, sexo: sex)
-      redirect_to 'patient'
+      redirect_to account_patient_path
     else
       render 'edit'
     end
