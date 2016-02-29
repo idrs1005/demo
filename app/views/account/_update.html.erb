@@ -1,4 +1,4 @@
-<%= form_for :account, url: account_update_path do |f| %>
+<%= form_for :account, url: account_edit_path do |f| %>
 
     <% if @patient.errors.any? %>
         <div id="error_explanation">
@@ -25,12 +25,12 @@
 
     <p>
       <strong>Correo de registro:</strong><br>
-      <%= f.text_field :email, :value => @patient.email %>
+      <%= f.label :email, :value => @patient.email %>
     </p>
 
     <p>
       <strong>Nombre de usuario:</strong><br>
-      <%= f.text_field :usuario, :value => @patient.usuario %>
+      <%= f.label :usuario, :value => @patient.usuario %>
     </p>
 
     <p>
