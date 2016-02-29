@@ -14,7 +14,7 @@ Rails.application.routes.draw do
   post 'register/create' => 'register#create'
 
   get 'account' => 'account#index'
-  get 'account/patient' => 'account#index'
+  get 'account/patient' => 'account#patient'
   get 'account/edit' => 'account#edit'
   post 'account/update' => 'account#update'
   post 'account/patient', to: :patient, controller: 'account'
