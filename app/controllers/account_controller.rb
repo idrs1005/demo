@@ -23,7 +23,7 @@ class AccountController < ApplicationController
   end
 
   def patient
-    if @patient = Paciente.find(session[:current_user_id]) != nil
+    if session[:current_user_id] != nil
       render 'patient'
     else
       @patient = Paciente.find_by(usuario: params[:account][:usuario], password: params[:account][:password])
