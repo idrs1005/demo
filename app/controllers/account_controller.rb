@@ -16,26 +16,21 @@ class AccountController < ApplicationController
         sex = 'Masculino'
     end
     if @patient.update(nombre: nombre, apellido1: apellido1, apellido2: apellido2, fecha_nacimiento: fecha_nacimiento, identificacion: identificacion, ocupacion: ocupacion, sexo: sex)
-      redirect_to account_patient_path
+      render 'patient'
     else
       render 'edit'
     end
   end
 
   def patient
-    if session[:current_user_id] != nil
-      @patient = Paciente.find(session[:current_user_id])
+
+    @patient = Paciente.find_by(usuario: params[:account][:usuario], password: params[:account][:password])
+    if @patient != nil
+      session[:current_user_id] = @patient.id
       render 'patient'
     else
-      @patient = Paciente.find_by(usuario: params[:account][:usuario], password: params[:account][:password])
-      if @patient != nil
-        session[:current_user_id] = @patient.id
-        render 'patient'
-      else
-        flash[:error] = "Invalid user/email combination"
-        render 'index'
-      end
-
+      flash[:error] = "Invalid user/email combination"
+      render 'index'
     end
 
   end
