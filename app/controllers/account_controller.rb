@@ -12,7 +12,7 @@ class AccountController < ApplicationController
     @patient = Paciente.find(session[:current_user_id])
     mydate = fecha_nacimiento
     sex = 'Femenino'
-    if sexo
+    if sexo == "true"
         sex = 'Masculino'
     end
     if @patient.update(nombre: nombre, apellido1: apellido1, apellido2: apellido2, fecha_nacimiento: fecha_nacimiento, identificacion: identificacion, ocupacion: ocupacion, sexo: sex)
