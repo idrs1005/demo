@@ -15,7 +15,7 @@ class AccountController < ApplicationController
     if sexo
         sex = 'Masculino'
     end
-    if @patient.update(nombre: nombre, apellido1: nombre, apellido2: apellido2, fecha_nacimiento: fecha_nacimiento, identificacion: identificacion, ocupacion: ocupacion, sexo: sex)
+    if @patient.update(nombre: nombre, apellido1: apellido1, apellido2: apellido2, fecha_nacimiento: fecha_nacimiento, identificacion: identificacion, ocupacion: ocupacion, sexo: sex)
       redirect_to account_patient_path
     else
       render 'edit'
@@ -24,6 +24,7 @@ class AccountController < ApplicationController
 
   def patient
     if session[:current_user_id] != nil
+      @patient = Paciente.find(session[:current_user_id])
       render 'patient'
     else
       @patient = Paciente.find_by(usuario: params[:account][:usuario], password: params[:account][:password])

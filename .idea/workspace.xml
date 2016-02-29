@@ -33,8 +33,8 @@
       <file leaf-file-name="account_controller.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/account_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.66139954">
-              <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.68961626">
+              <caret line="26" column="57" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -630,12 +630,6 @@
       <option name="number" value="Default" />
       <updated>1455122167627</updated>
     </task>
-    <task id="LOCAL-00145" summary="Rubymine - Login con sesion">
-      <created>1455922405593</created>
-      <option name="number" value="00145" />
-      <option name="project" value="LOCAL" />
-      <updated>1455922405593</updated>
-    </task>
     <task id="LOCAL-00146" summary="Rubymine - Login con sesion">
       <created>1455922518483</created>
       <option name="number" value="00146" />
@@ -924,7 +918,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456767062748</updated>
     </task>
-    <option name="localTasksCounter" value="194" />
+    <task id="LOCAL-00194" summary="Rubymine - Editando atributos de la BD">
+      <created>1456767146174</created>
+      <option name="number" value="00194" />
+      <option name="project" value="LOCAL" />
+      <updated>1456767146175</updated>
+    </task>
+    <option name="localTasksCounter" value="195" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1361,8 +1361,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/account_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66139954">
-          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.68961626">
+          <caret line="26" column="57" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
           <folding />
         </state>
       </provider>
