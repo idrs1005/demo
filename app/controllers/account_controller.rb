@@ -10,6 +10,7 @@ class AccountController < ApplicationController
 
   def update
     @patient = Paciente.find(session[:current_user_id])
+    #mydate = DateTime.new(
     if @patient.update(usuarios: params[:account][:usuario])
       render 'patient'
     else
