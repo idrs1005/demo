@@ -40,7 +40,7 @@
 
     <p>
       <strong>Fecha de nacimiento:</strong><br>
-      <%= f.date_select(:fecha_nacimiento,:start_year => 1940) %>
+      <%= f.date_select(:fecha_nacimiento,:start_year => 1940, selected: @patient.fecha_nacimiento) %>
     </p>
 
     <p>
