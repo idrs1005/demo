@@ -45,10 +45,21 @@
 
     <p>
       <strong>Sexo:</strong><br>
-      <%= f.radio_button :autolyse, true%>
-      <%= f.label :autolyse, "Masculino" %>
-      <%= f.radio_button :autolyse, false %>
-      <%= f.label :autolyse, "Femenino" %>
+
+      <% if @patient.sexo == 'Masculino' %>
+          <%= f.radio_button :autolyse, true, :checked => true%>
+          <%= f.label :autolyse, "Masculino" %>
+          <%= f.radio_button :autolyse, false %>
+          <%= f.label :autolyse, "Femenino" %>
+      <% end %>
+
+      <% if @patient.sexo == 'Femenino' %>
+          <%= f.radio_button :autolyse, true%>
+          <%= f.label :autolyse, "Masculino" %>
+          <%= f.radio_button :autolyse, false, :checked => true %>
+          <%= f.label :autolyse, "Femenino" %>
+      <% end %>
+
     </p>
 
     <p>
