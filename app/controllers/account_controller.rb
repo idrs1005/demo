@@ -15,7 +15,7 @@ class AccountController < ApplicationController
     if sexo
         sex = 'Masculino'
     end
-    if @patient.update(nombre: nombre, apellido1: nombre, apellido2: apellido2, identificacion: identificacion, ocupacion: ocupacion, sexo: sex)
+    if @patient.update(nombre: nombre, apellido1: nombre, apellido2: apellido2, fecha_nacimiento: fecha_nacimiento, identificacion: identificacion, ocupacion: ocupacion, sexo: sex)
       render 'patient'
     else
       render 'edit'
