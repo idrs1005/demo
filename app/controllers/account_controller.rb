@@ -40,7 +40,8 @@ class AccountController < ApplicationController
   end
 
   def fecha_nacimiento
-    DateTime.new(params[:account]["fecha_nacimiento(1i)"] ,params[:account]["fecha_nacimiento(2i)"],params[:account]["fecha_nacimiento(13i)"])
+    evento = params[:account]
+    Date.new evento["fecha_nacimiento(1i)"].to_i, evento["fecha_nacimiento(2i)"].to_i, evento["fecha_nacimiento(3i)"].to_i
   end
 
   def nombre

@@ -4,7 +4,6 @@
     <list default="true" id="ddc9e838-b0cd-464d-b670-f084b8e961be" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/account_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/account_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/account/_update.html.erb" afterPath="$PROJECT_DIR$/app/views/account/_update.html.erb" />
     </list>
     <ignored path="demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,8 +33,8 @@
       <file leaf-file-name="account_controller.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/account_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4356659">
-              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.68961626">
+              <caret line="43" column="122" selection-start-line="43" selection-start-column="122" selection-end-line="43" selection-end-column="122" />
               <folding />
             </state>
           </provider>
@@ -603,12 +602,6 @@
       <option name="number" value="Default" />
       <updated>1455122167627</updated>
     </task>
-    <task id="LOCAL-00128" summary="Rubymine - Registro con validaciones">
-      <created>1455746754013</created>
-      <option name="number" value="00128" />
-      <option name="project" value="LOCAL" />
-      <updated>1455746754013</updated>
-    </task>
     <task id="LOCAL-00129" summary="Rubymine - Registro con validaciones">
       <created>1455747407177</created>
       <option name="number" value="00129" />
@@ -897,7 +890,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456760307234</updated>
     </task>
-    <option name="localTasksCounter" value="177" />
+    <task id="LOCAL-00177" summary="Rubymine - Editando atributos de la BD">
+      <created>1456761216391</created>
+      <option name="number" value="00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1456761216391</updated>
+    </task>
+    <option name="localTasksCounter" value="178" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1332,8 +1331,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/account_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4356659">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.68961626">
+          <caret line="43" column="122" selection-start-line="43" selection-start-column="122" selection-end-line="43" selection-end-column="122" />
           <folding />
         </state>
       </provider>
