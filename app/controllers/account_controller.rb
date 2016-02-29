@@ -23,12 +23,12 @@ class AccountController < ApplicationController
   end
 
   def patient
-    if @_current_user != nil
+    if @patient = Paciente.find(session[:current_user_id]) != nil
       render 'patient'
     else
       @patient = Paciente.find_by(usuario: params[:account][:usuario], password: params[:account][:password])
       if @patient != nil
-        @_current_user = session[:current_user_id] = @patient.id
+        session[:current_user_id] = @patient.id
         render 'patient'
       else
         flash[:error] = "Invalid user/email combination"
